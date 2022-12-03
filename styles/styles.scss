@@ -2,27 +2,7 @@
 
 @import 'colors.scss';
 @import 'mixins.scss';
-@keyframes pull{    
-    0%{
-        transform: translateY(0);
-    }
-
-    25%{
-        transform: translateY(toVw(25px));
-    }
-
-    50%{
-        transform: translateY(toVw(50px));
-    }
-
-    75%{
-        transform: translateY(toVw(25px));
-    }
-    
-    100%{
-        transform: translateY(0);
-    }
-}
+@import 'animations.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
@@ -52,6 +32,7 @@ a{
     margin: auto;
 }
 button.btn.gold{
+    cursor: pointer;
     margin-top: toVw(35px);
     width: toVw(255px);
     height: toVw(50px);
@@ -61,6 +42,10 @@ button.btn.gold{
     color: $c-white;
     background-color: $c-gold;
     border: none;
+    &:active{
+        box-shadow: 5px 10px 18px black;
+
+    }
 }
 .first-screen{
     padding-top: toVw(30px);
@@ -73,7 +58,7 @@ button.btn.gold{
     &-header{
         @include flex-between();
         margin-bottom: toVw(200px);
-
+        
         &__logo{
             img{
                 width: toVw(134px);
@@ -111,7 +96,7 @@ button.btn.gold{
 
         .mouse{
             margin-bottom: toVw(200px);
-            animation: pull 2s infinite linear;
+            animation: pull 2.5s infinite linear;
             img{
                 width: toVw(40px);
                 height: toVw(40px);
@@ -216,12 +201,21 @@ button.btn.gold{
                     margin-left: 0;
                     @include bg-main();
                     background-image: url('../images/loft-3.png');
+                    animation: left-slide 1s linear;
                     h3{
                         font-family: 'Raleway';
                         font-size: toVw(24px);
                         font-weight: 400;
                         color: $c-white;
                         padding: toVw(248px) toVw(300px) toVw(50px) toVw(50px);
+                    }
+                    &:hover{
+                        transition: all 1s ease 0s;
+                        border-bottom: toVw(1px) solid $c-white;
+                        transform: scale(1.1);
+                        h3{
+                            opacity: 0.5;
+                        }
                     }
                 }
             }
@@ -232,13 +226,22 @@ button.btn.gold{
                     margin: toVw(30px);
                     @include bg-main();
                     background-image: url('../images/loft-2.png');
-                }
-                h3{
-                    font-family: 'Raleway';
-                    font-size: toVw(24px);
-                    font-weight: 400;
-                    color: $c-white;
-                    padding: toVw(248px) toVw(300px) toVw(50px) toVw(50px);
+                    animation: right-slide 1s linear;
+                    &:hover{
+                        transition: all 1s ease 0s;
+                        border-bottom: toVw(1px) solid $c-white;
+                        transform: scale(1.1);
+                        h3{
+                            opacity: 0.5;
+                        }
+                    }
+                    h3{
+                        font-family: 'Raleway';
+                        font-size: toVw(24px);
+                        font-weight: 400;
+                        color: $c-white;
+                        padding: toVw(248px) toVw(300px) toVw(50px) toVw(50px);
+                    }
                 }
             }
         }
@@ -275,7 +278,6 @@ button.btn.gold{
             margin-left: toVw(35px);
             &-inputs{
                 display: flex;
-                color: #BEBEBE;
                 input{
                     width: toVw(255px);
                     font-family: 'Raleway';
@@ -283,7 +285,7 @@ button.btn.gold{
                     line-height: toVw(27px);
                     padding: toVw(12px);
                     color: #BEBEBE;
-                    background-color: #FFFFFF;
+                    background-color: $c-white;
                     opacity: 0.2;
                     margin-right: toVw(30px);
                     border: none;
@@ -310,6 +312,7 @@ button.btn.gold{
 }
 
 .video{
+    cursor: pointer;
     width: toVw(719px);
     height: toVw(650px);
     @include bg-main();
@@ -331,6 +334,10 @@ button.btn.gold{
         img{
             width: toVw(100px);
             height: toVw(100px);
+            border-radius: 50%;
+            &:active{
+                box-shadow: 5px 10px 18px black;
+            }
         }
 
     }
@@ -369,7 +376,8 @@ button.btn.gold{
                 font-size: toVw(14px);
                 line-height: toVw(27px);
                 padding: toVw(12px);
-                background: #FFFFFF;
+                color: white;
+                background-color: black;
                 opacity: 0.2;
                 margin-right: toVw(30px);
                 border: none;
