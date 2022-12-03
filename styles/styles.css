@@ -394,6 +394,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 3.125vw 21.09375vw;
+  background-color: #2D343C;
 }
 footer .logo img {
   width: 7.1354166667vw;

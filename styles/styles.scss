@@ -386,6 +386,7 @@ button.btn.gold{
 footer{
     @include flex-between();
     padding: toVw(60px) toVw(405px);
+    background-color: #2D343C;
     .logo{
         img{
             width: toVw(137px);
