@@ -1,0 +1,21 @@
+@mixin bg-main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-center{
+    @include flex-between();
+    align-items: center;
+}
+
+@mixin before{
+    content: '';
+    display: block;
+    position: absolute;
+}
