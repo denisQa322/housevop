@@ -118,6 +118,10 @@ button.btn.gold {
   -webkit-animation: pull 2s infinite linear;
           animation: pull 2s infinite linear;
 }
+.first-screen-main-info .mouse img {
+  width: 2.0833333333vw;
+  height: 2.0833333333vw;
+}
 .first-screen-main-info-location {
   display: flex;
   justify-content: space-between;
@@ -203,7 +207,7 @@ button.btn.gold {
   background-image: url("../images/III.svg");
   width: 22.1875vw;
   height: 14.7916666667vw;
-  right: 43.2291666667vw;
+  right: 46.3541666667vw;
   top: 6.25vw;
 }
 .appartaments .container .appartaments-header h1 {
@@ -219,6 +223,7 @@ button.btn.gold {
   width: 27.8645833333vw;
   height: 16.6666666667vw;
   margin: 1.5625vw;
+  margin-left: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

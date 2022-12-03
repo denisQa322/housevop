@@ -112,6 +112,10 @@ button.btn.gold{
         .mouse{
             margin-bottom: toVw(200px);
             animation: pull 2s infinite linear;
+            img{
+                width: toVw(40px);
+                height: toVw(40px);
+            }
 
         }
 
@@ -192,7 +196,7 @@ button.btn.gold{
                 background-image: url('../images/III.svg');
                 width: toVw(426px);
                 height: toVw(284px);
-                right: toVw(830px);
+                right: toVw(890px);
                 top: toVw(120px);
             }
             h1{
@@ -209,6 +213,7 @@ button.btn.gold{
                     width: toVw(535px);
                     height: toVw(320px);
                     margin: toVw(30px);
+                    margin-left: 0;
                     @include bg-main();
                     background-image: url('../images/loft-3.png');
                     h3{
