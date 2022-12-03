@@ -288,7 +288,8 @@ button.btn.gold {
   font-size: 0.7291666667vw;
   line-height: 1.40625vw;
   padding: 0.625vw;
-  background: #FFFFFF;
+  color: #BEBEBE;
+  background-color: #FFFFFF;
   opacity: 0.2;
   margin-right: 1.5625vw;
   border: none;
@@ -333,9 +334,11 @@ button.btn.gold {
   right: -21.3541666667vw;
 }
 .video a {
+  margin: 14.3229166667vw 16.1458333333vw;
+}
+.video a img {
   width: 5.2083333333vw;
   height: 5.2083333333vw;
-  margin: 14.3229166667vw 16.1458333333vw;
 }
 
 .have-questions {
@@ -416,4 +419,8 @@ footer ul.footer-menu .socials {
   margin-top: 0.78125vw;
   display: flex;
   justify-content: space-between;
+}
+footer ul.footer-menu .socials img {
+  width: 1.0416666667vw;
+  height: 1.0416666667vw;
 }/*# sourceMappingURL=styles.css.map */

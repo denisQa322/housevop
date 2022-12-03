@@ -277,7 +277,8 @@ button.btn.gold{
                     font-size: toVw(14px);
                     line-height: toVw(27px);
                     padding: toVw(12px);
-                    background: #FFFFFF;
+                    color: #BEBEBE;
+                    background-color: #FFFFFF;
                     opacity: 0.2;
                     margin-right: toVw(30px);
                     border: none;
@@ -321,9 +322,11 @@ button.btn.gold{
         right: toVw(-410px);
     }
     a{
-        width: toVw(100px);
-        height: toVw(100px);
         margin: toVw(275px) toVw(310px);
+        img{
+            width: toVw(100px);
+            height: toVw(100px);
+        }
 
     }
 }
@@ -410,6 +413,10 @@ footer{
             .socials{
                 margin-top: toVw(15px);
                 @include flex-between();
+                img{
+                    width: toVw(20px);
+                    height: toVw(20px);
+                }
             }
     }
 }
