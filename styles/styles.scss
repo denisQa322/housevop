@@ -8,15 +8,15 @@
     }
 
     25%{
-        transform: translateY(25px);
+        transform: translateY(toVw(25px));
     }
 
     50%{
-        transform: translateY(50px);
+        transform: translateY(toVw(50px));
     }
 
     75%{
-        transform: translateY(25px);
+        transform: translateY(toVw(25px));
     }
     
     100%{
@@ -57,7 +57,7 @@ button.btn.gold{
     height: toVw(50px);
     padding: toVw(12px);
     font-weight: 700;
-    font-size: 16px;
+    font-size: toVw(16px);
     color: $c-white;
     background-color: $c-gold;
     border: none;
@@ -81,7 +81,7 @@ button.btn.gold{
             }
             p{
 
-                font-size: 12px;
+                font-size: toVw(12px);
                 color: $c-white;
             }
         }
@@ -92,7 +92,7 @@ button.btn.gold{
             list-style: none;
             li{
                 a{
-                        font-size: toVw(14px);
+                    font-size: toVw(14px);
                 }
             }
         }
@@ -213,7 +213,7 @@ button.btn.gold{
                     background-image: url('../images/loft-3.png');
                     h3{
                         font-family: 'Raleway';
-                        font-size: 24px;
+                        font-size: toVw(24px);
                         font-weight: 400;
                         color: $c-white;
                         padding: toVw(248px) toVw(300px) toVw(50px) toVw(50px);
@@ -230,7 +230,7 @@ button.btn.gold{
                 }
                 h3{
                     font-family: 'Raleway';
-                    font-size: 24px;
+                    font-size: toVw(24px);
                     font-weight: 400;
                     color: $c-white;
                     padding: toVw(248px) toVw(300px) toVw(50px) toVw(50px);
@@ -258,8 +258,8 @@ button.btn.gold{
             p{
                 color: $c-white;
                 width: toVw(535px);
-                font-size: 16px;
-                line-height: 24px;
+                font-size: toVw(16px);
+                line-height: toVw(24px);
                 font-family: 'Raleway';
             }
             
@@ -274,8 +274,8 @@ button.btn.gold{
                 input{
                     width: toVw(255px);
                     font-family: 'Raleway';
-                    font-size: 14px;
-                    line-height: 27px;
+                    font-size: toVw(14px);
+                    line-height: toVw(27px);
                     padding: toVw(12px);
                     background: #FFFFFF;
                     opacity: 0.2;
@@ -295,7 +295,7 @@ button.btn.gold{
                     color: $c-white;
                     margin-right: toVw(30px);
                     font-weight: 400;
-                    font-size: 13px;
+                    font-size: toVw(13px);
                     font-family: 'Raleway';
                 }
             }
@@ -336,7 +336,7 @@ button.btn.gold{
             h1{
                 font-family: 'Playfair Display';
                 font-weight: 700;
-                font-size: 36px;
+                font-size: toVw(36px);
                 color: $c-gold;
             }
         }
@@ -350,16 +350,16 @@ button.btn.gold{
                 height: toVw(50px);
                 font-family: 'Raleway';
                 font-weight: 400;
-                font-size: 13px;
-                line-height: 16px;
+                font-size: toVw(13px);
+                line-height: toVw(16px);
                 margin-right: toVw(30px);
             }
             input{
                 width: toVw(255px);
                 height: toVw(50px);
                 font-family: 'Raleway';
-                font-size: 14px;
-                line-height: 27px;
+                font-size: toVw(14px);
+                line-height: toVw(27px);
                 padding: toVw(12px);
                 background: #FFFFFF;
                 opacity: 0.2;
@@ -385,7 +385,7 @@ footer{
         }
         p{
 
-            font-size: 12px;
+            font-size: toVw(12px);
             color: $c-white;
         }
 

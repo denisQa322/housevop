@@ -6,13 +6,13 @@
     transform: translateY(0);
   }
   25% {
-    transform: translateY(25px);
+    transform: translateY(toVw(25px));
   }
   50% {
-    transform: translateY(50px);
+    transform: translateY(toVw(50px));
   }
   75% {
-    transform: translateY(25px);
+    transform: translateY(toVw(25px));
   }
   100% {
     transform: translateY(0);
@@ -23,13 +23,13 @@
     transform: translateY(0);
   }
   25% {
-    transform: translateY(25px);
+    transform: translateY(toVw(25px));
   }
   50% {
-    transform: translateY(50px);
+    transform: translateY(toVw(50px));
   }
   75% {
-    transform: translateY(25px);
+    transform: translateY(toVw(25px));
   }
   100% {
     transform: translateY(0);
@@ -62,7 +62,7 @@ button.btn.gold {
   height: 2.6041666667vw;
   padding: 0.625vw;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 0.8333333333vw;
   color: #fff;
   background-color: #D4C17F;
   border: none;
@@ -89,7 +89,7 @@ button.btn.gold {
   margin-bottom: 0.78125vw;
 }
 .first-screen-header__logo p {
-  font-size: 12px;
+  font-size: 0.625vw;
   color: #fff;
 }
 .first-screen-header ul.menu {
@@ -226,7 +226,7 @@ button.btn.gold {
 }
 .appartaments .container .appartaments-lofts__floor3 .loft3 h3 {
   font-family: "Raleway";
-  font-size: 24px;
+  font-size: 1.25vw;
   font-weight: 400;
   color: #fff;
   padding: 12.9166666667vw 15.625vw 2.6041666667vw 2.6041666667vw;
@@ -242,7 +242,7 @@ button.btn.gold {
 }
 .appartaments .container .appartaments-lofts__floor2 h3 {
   font-family: "Raleway";
-  font-size: 24px;
+  font-size: 1.25vw;
   font-weight: 400;
   color: #fff;
   padding: 12.9166666667vw 15.625vw 2.6041666667vw 2.6041666667vw;
@@ -269,8 +269,8 @@ button.btn.gold {
 .wanna-see .container .wanna-see-info p {
   color: #fff;
   width: 27.8645833333vw;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 0.8333333333vw;
+  line-height: 1.25vw;
   font-family: "Raleway";
 }
 .wanna-see .container .wanna-see-feedback {
@@ -285,8 +285,8 @@ button.btn.gold {
 .wanna-see .container .wanna-see-feedback-inputs input {
   width: 13.28125vw;
   font-family: "Raleway";
-  font-size: 14px;
-  line-height: 27px;
+  font-size: 0.7291666667vw;
+  line-height: 1.40625vw;
   padding: 0.625vw;
   background: #FFFFFF;
   opacity: 0.2;
@@ -306,7 +306,7 @@ button.btn.gold {
   color: #fff;
   margin-right: 1.5625vw;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 0.6770833333vw;
   font-family: "Raleway";
 }
 
@@ -346,7 +346,7 @@ button.btn.gold {
 .have-questions .container .have-questions-head h1 {
   font-family: "Playfair Display";
   font-weight: 700;
-  font-size: 36px;
+  font-size: 1.875vw;
   color: #D4C17F;
 }
 .have-questions .container .have-questions-form {
@@ -361,16 +361,16 @@ button.btn.gold {
   height: 2.6041666667vw;
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.6770833333vw;
+  line-height: 0.8333333333vw;
   margin-right: 1.5625vw;
 }
 .have-questions .container .have-questions-form input {
   width: 13.28125vw;
   height: 2.6041666667vw;
   font-family: "Raleway";
-  font-size: 14px;
-  line-height: 27px;
+  font-size: 0.7291666667vw;
+  line-height: 1.40625vw;
   padding: 0.625vw;
   background: #FFFFFF;
   opacity: 0.2;
@@ -392,7 +392,7 @@ footer .logo img {
   margin-bottom: 0.78125vw;
 }
 footer .logo p {
-  font-size: 12px;
+  font-size: 0.625vw;
   color: #fff;
 }
 footer ul.footer-menu {
