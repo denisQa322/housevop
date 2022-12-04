@@ -206,14 +206,14 @@ button.btn.gold:active {
   right: -15.6770833333vw;
   top: 3.125vw;
 }
-.around-us .around-us-info {
+.around-us-info {
   text-align: center;
 }
-.around-us .around-us-info img {
+.around-us-info img {
   width: 4.1666666667vw;
   height: 4.1666666667vw;
 }
-.around-us .around-us-info h3 {
+.around-us-info h3 {
   margin-top: 2.6041666667vw;
   color: #fff;
   font-family: "Roboto";
@@ -346,6 +346,15 @@ button.btn.gold:active {
 .wanna-see .container .wanna-see-feedback-inputs input:last-child {
   margin-right: none;
 }
+.wanna-see .container .wanna-see-feedback-inputs input::-moz-placeholder {
+  font-size: 0.7291666667vw;
+}
+.wanna-see .container .wanna-see-feedback-inputs input:-ms-input-placeholder {
+  font-size: 0.7291666667vw;
+}
+.wanna-see .container .wanna-see-feedback-inputs input::placeholder {
+  font-size: 0.7291666667vw;
+}
 .wanna-see .container .wanna-see-feedback-info {
   display: flex;
 }
@@ -435,6 +444,15 @@ button.btn.gold:active {
   border: none;
   text-align: center;
 }
+.have-questions .container .have-questions-form input::-moz-placeholder {
+  font-size: 0.7291666667vw;
+}
+.have-questions .container .have-questions-form input:-ms-input-placeholder {
+  font-size: 0.7291666667vw;
+}
+.have-questions .container .have-questions-form input::placeholder {
+  font-size: 0.7291666667vw;
+}
 .have-questions .container .have-questions-form .btn.gold {
   margin-top: 0;
 }
@@ -478,4 +496,4 @@ footer ul.footer-menu .socials {
 footer ul.footer-menu .socials img {
   width: 1.0416666667vw;
   height: 1.0416666667vw;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=style.css.map */

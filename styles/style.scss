@@ -59,6 +59,7 @@ button.btn.gold{
         @include flex-between();
         margin-bottom: toVw(200px);
         
+
         &__logo{
             img{
                 width: toVw(134px);
@@ -154,7 +155,7 @@ button.btn.gold{
         right: toVw(-301px);
         top: toVw(60px);
     }
-    .around-us-info{
+    &-info{
         text-align: center;
         img{
             width: toVw(80px);
@@ -293,6 +294,9 @@ button.btn.gold{
                     &:last-child{
                         margin-right: none;
                     }
+                    &::placeholder{
+                        font-size: toVw(14px);
+                    }
                 }
             }
             &-info{
@@ -382,6 +386,9 @@ button.btn.gold{
                 margin-right: toVw(30px);
                 border: none;
                 text-align: center;
+                &::placeholder{
+                    font-size: toVw(14px);
+                }
             }
             .btn.gold{
                 margin-top: 0;
