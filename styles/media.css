@@ -123,6 +123,7 @@
     flex-direction: column;
   }
   .wanna-see .container .wanna-see-feedback-inputs input {
+    width: 100px;
     margin: 5px;
     padding: 6px;
   }
@@ -148,9 +149,11 @@
   }
   .wanna-see .container .wanna-see-feedback-info button {
     width: 100px;
+    height: 20px;
     margin: auto;
     margin-top: 10px;
     font-size: 6px;
+    padding: 6px;
   }
   .video.video::after {
     display: none;
@@ -172,6 +175,7 @@
     line-height: 150%;
   }
   .have-questions .container .have-questions-form input {
+    width: 100px;
     margin: 10px;
     padding: 6px;
   }
@@ -186,9 +190,11 @@
   }
   .have-questions .container .have-questions-form button.btn.gold {
     width: 100px;
+    height: 20px;
     margin: auto;
     margin-top: 10px;
     font-size: 6px;
+    padding: 6px;
   }
   footer {
     flex-direction: column;
