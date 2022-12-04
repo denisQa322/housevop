@@ -420,10 +420,9 @@ button.btn.gold:active {
   margin-top: 2.6041666667vw;
 }
 .have-questions .container .have-questions-form p {
-  text-align: center;
+  padding-top: 0.5208333333vw;
   color: #fff;
   width: 13.28125vw;
-  height: 2.6041666667vw;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 0.6770833333vw;
@@ -432,7 +431,6 @@ button.btn.gold:active {
 }
 .have-questions .container .have-questions-form input {
   width: 13.28125vw;
-  height: 2.6041666667vw;
   font-family: "Raleway";
   font-size: 0.7291666667vw;
   line-height: 1.40625vw;

@@ -362,11 +362,10 @@ button.btn.gold{
         .have-questions-form{
             @include flex-between();
             margin-top: toVw(50px);
-            p{
-                text-align: center;
+            p{  
+                padding-top: toVw(10px);
                 color: $c-white;
                 width: toVw(255px);
-                height: toVw(50px);
                 font-family: 'Raleway';
                 font-weight: 400;
                 font-size: toVw(13px);
@@ -375,7 +374,6 @@ button.btn.gold{
             }
             input{
                 width: toVw(255px);
-                height: toVw(50px);
                 font-family: 'Raleway';
                 font-size: toVw(14px);
                 line-height: toVw(27px);
