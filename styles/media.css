@@ -126,7 +126,7 @@
     width: 100px;
     margin: 5px;
     padding: 6px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .wanna-see .container .wanna-see-feedback-inputs input::-moz-placeholder {
     font-size: 10px;
@@ -179,7 +179,7 @@
     width: 100px;
     margin: 10px;
     padding: 6px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .have-questions .container .have-questions-form input::-moz-placeholder {
     font-size: 10px;
