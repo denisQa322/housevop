@@ -84,6 +84,8 @@
     text-align: center;
     margin: auto;
     margin-bottom: 10px;
+    -webkit-animation: left-slide 2s linear;
+            animation: left-slide 2s linear;
   }
   .appartaments .container .appartaments-lofts__floor3 .loft3 h3 {
     font-size: 10px;
@@ -93,6 +95,8 @@
     text-align: center;
     margin: auto;
     margin-bottom: 10px;
+    -webkit-animation: right-slide 2s linear;
+            animation: right-slide 2s linear;
   }
   .appartaments .container .appartaments-lofts__floor2 .loft2 h3 {
     font-size: 10px;
