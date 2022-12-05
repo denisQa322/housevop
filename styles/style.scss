@@ -296,6 +296,8 @@ button.btn.gold{
                     }
                     &::placeholder{
                         font-size: toVw(14px);
+                        opacity: 1;
+                        color: #BEBEBE;
                     }
                 }
             }
@@ -386,6 +388,8 @@ button.btn.gold{
                 text-align: center;
                 &::placeholder{
                     font-size: toVw(14px);
+                    opacity: 1;
+                    color: #BEBEBE;
                 }
             }
             .btn.gold{
