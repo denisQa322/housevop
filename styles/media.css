@@ -126,15 +126,16 @@
     width: 100px;
     margin: 5px;
     padding: 6px;
+    font-size: 10px;
   }
   .wanna-see .container .wanna-see-feedback-inputs input::-moz-placeholder {
-    font-size: 8px;
+    font-size: 10px;
   }
   .wanna-see .container .wanna-see-feedback-inputs input:-ms-input-placeholder {
-    font-size: 8px;
+    font-size: 10px;
   }
   .wanna-see .container .wanna-see-feedback-inputs input::placeholder {
-    font-size: 8px;
+    font-size: 10px;
   }
   .wanna-see .container .wanna-see-feedback-info {
     margin: auto;
@@ -152,7 +153,7 @@
     height: 20px;
     margin: auto;
     margin-top: 10px;
-    font-size: 6px;
+    font-size: 8px;
     padding: 6px;
   }
   .video.video::after {
@@ -178,22 +179,23 @@
     width: 100px;
     margin: 10px;
     padding: 6px;
+    font-size: 10px;
   }
   .have-questions .container .have-questions-form input::-moz-placeholder {
-    font-size: 8px;
+    font-size: 10px;
   }
   .have-questions .container .have-questions-form input:-ms-input-placeholder {
-    font-size: 8px;
+    font-size: 10px;
   }
   .have-questions .container .have-questions-form input::placeholder {
-    font-size: 8px;
+    font-size: 10px;
   }
   .have-questions .container .have-questions-form button.btn.gold {
     width: 100px;
     height: 20px;
     margin: auto;
     margin-top: 10px;
-    font-size: 6px;
+    font-size: 8px;
     padding: 6px;
   }
   footer {

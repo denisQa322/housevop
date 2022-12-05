@@ -153,8 +153,9 @@
                         width: 100px;
                         margin: 5px;
                         padding: 6px;
+                        font-size: 10px;
                         &::placeholder{
-                            font-size: 8px;
+                            font-size: 10px;
                         }
                     }
                 }
@@ -173,7 +174,7 @@
                         height: 20px;
                         margin: auto;
                         margin-top: 10px;
-                        font-size: 6px;
+                        font-size: 8px;
                         padding: 6px;
                     }
                 }
@@ -206,8 +207,9 @@
                     width: 100px;
                     margin: 10px;
                     padding: 6px;
+                    font-size: 10px;
                     &::placeholder{
-                        font-size: 8px;
+                        font-size: 10px;
                     }
                 }
                 button.btn.gold{
@@ -215,7 +217,7 @@
                     height: 20px;
                     margin: auto;
                     margin-top: 10px;
-                    font-size: 6px;
+                    font-size: 8px;
                     padding: 6px;
                 }
             }
